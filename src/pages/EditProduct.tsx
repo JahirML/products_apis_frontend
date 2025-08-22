@@ -8,11 +8,7 @@ import {
   type LoaderFunctionArgs,
 } from "react-router-dom";
 import ErrorMessage from "../components/ErrorMessage";
-import {
-  addProduct,
-  getProductById,
-  updateProduct,
-} from "../services/productService";
+import { getProductById, updateProduct } from "../services/productService";
 import type { Product } from "../types";
 import ProductForm from "../components/ProductForm";
 
